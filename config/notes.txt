@@ -1,0 +1,18 @@
+FINAL CONFIG
+
+- Multi-ticket: ON
+- Ticket categories: SUPPORT/create-ticket, TIKET DONASI, TIKET REPORT, TIKET FORMULIR
+- Donation timeout: 24 hours
+- Welcome: ON via Guild Member Add
+- Goodbye: ON via Guild Member Remove
+- Self-role: ON via /rolepanel
+
+Set role IDs in .env ROLE_BUTTONS.
+Set channel names and messages in .env.
+
+- Support ticket flow: open_support -> category selection -> support form -> ticket.
+- All ticket entry buttons now use private/ephemeral category selection menus before opening their forms: Support, Report, and Formulir.
+- Support categories: Pembelian Subscription, Investasi Item Game, Kerja Sama / Partnership, Keperluan Lainnya.
+- Report categories: Laporan Player, Bug / Error, Laporan Staff, Lainnya.
+- Form categories: Pendaftaran / Pengajuan, Recruitment / Worker, Partnership / Kolaborasi, Formulir Lainnya.
+- Created ticket channels remain publicly viewable to all server members; only ticket owner and Staff can send messages.
